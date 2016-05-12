@@ -1,5 +1,5 @@
 var http = require('http');
-var httpProxy = require('./lib/http-proxy');
+var httpProxy = require('./node_modules/http-proxy/lib/http-proxy');
 
 var caCert =
   '-----BEGIN CERTIFICATE-----\n' +
